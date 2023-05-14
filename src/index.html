@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pineapple brand</title>
+  <script href="js/script.js"></script>
+  <link rel="stylesheet" href="css/stylesheet.css">
+</head>
+
+<body>
+  <section class="base">
+    <header>
+      <div class="main-menu">
+        <div class="logo">
+          <img src="img/Union.png" alt="Logo">
+        </div>
+        <nav>
+          <ul class="menu">
+            <li><a href="#">About</a></li>
+            <li><a href="#">How it works</a></li>
+            <li><a href="#">Contacts</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div class="mobile-view">
+      <div id="mainDiv">
+        <h1>Subscribe to newsletter</h1>
+        <p>Subscribe to our newsletter and get 10% discount on pineapple glasses.</p>
+        <form id="form" >
+          <input id="email" type="text" placeholder="Type your email address…" name="mail">
+          <button type="submit" class="submitButton"><img src="img/ic_arrow.svg"></button>
+        </form>
+        <div id="errorDiv">
+        </div>
+        <div class="checkbox-wrapper">
+          <input type="checkbox" id="check" hidden>
+          <label for="check" class="checkmark"></label>
+          <label>I agree to <a href="#" id='TOS'><u> terms of service</u></a></label>
+        </div>
+      </div>
+      <div id="Success" hidden>
+        <img id="cup" src="img/cup.png">
+        <h1>Thanks for subscribing!</h1>
+        <p>You have successfully subscribed to our email listing. Check your email for the discount code.</p>
+      </div>
+      <hr>
+
+      <div class="social">
+        <a href="#" class="socialNetwork socialNet-facebook"><img src="img/Facebook.png"></a>
+        <a href="#" class="socialNetwork socialNet-instagram"><img src="img/Instagram.png"></a>
+        <a href="#" class="socialNetwork socialNet-twitter"><img src="img/Twitter.png"></a>
+        <a href="#" class="socialNetwork socialNet-youtube"><img src="img/Youtube.png"></a>
+      </div>
+    </div>
+  </section>
+
+  <div class="background">
+    <img class="image" src="img/image_summer.png">
+  </div>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
